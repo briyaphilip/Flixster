@@ -30,13 +30,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/6VrD6LMaky7L9Ibzii/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [Kap](https://getkap.co/).
+GIF created with [Giphy](https://giphy.com/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Attempting to implement the Youtube API was difficult, and caused my app to crash (I was not able to implement it correctly)
 
 ## Open-source libraries used
 
