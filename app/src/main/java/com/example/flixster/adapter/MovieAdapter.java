@@ -107,6 +107,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder>{
             int radius = 30;
             int margin = 10;
             Glide.with(context)
+                    .load("")
                     .load(imageUrl)
                     .placeholder(R.drawable.flicks_movie_placeholder)
                     .fitCenter()

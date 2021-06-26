@@ -2,6 +2,8 @@ package com.example.flixster;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -71,6 +73,15 @@ public class MovieDetailsActivity extends AppCompatActivity {
                 .fitCenter()
                 .transform(new RoundedCornersTransformation(radius, margin))
                 .into(ivPoster);
+
+        ivPoster.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Log.d("TAG", "onItemClick");
+                Intent intent = new Intent(MovieDetailsActivity.this, MovieTrailerActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }
